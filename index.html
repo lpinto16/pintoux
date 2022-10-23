@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- OG image -->
   <meta property="og:title" content="Luis Pinto - Product Designer">
-  <meta property="og:description" content="Hi I'm Luis Pinto. Digital product designer with 6 years of experience in the area creating awesome projects focused on the user and the business.">
+  <meta property="og:description" content="Hi I'm Luis Pinto. Digital product designer at mercandú, with 6 years of experience in the area creating awesome projects focused on the user and the business.">
   <meta property="og:image" content="https://i.postimg.cc/sgKmZFZ0/pinto-og.gif">
   <meta property="og:url" content="https://pintoux.com">
   <meta property="og:site_name" content="pintoux.com">
@@ -17,20 +17,46 @@
 <body>
   <!-- //navbar section  -->
   <header>
-      <nav class="flex justify-between bg-downriver-700/95 backdrop-blur-sm py-5 fixed w-screen top-0 left-0">
+      <nav class="flex justify-between bg-downriver-700/95 backdrop-blur-sm py-5 px-4 md:px-6 lg:px-20 fixed w-screen top-0 left-0">
         <div class="flex items-center">
-          <img src="/img/lg-logo.svg" alt="logo_luis_pinto" class="hidden lg:block pl-20 ">  
-          <img src="/img/md-logo.svg" alt="logo_pinto" class="ml-4 hidden md:block lg:hidden md:ml-6 lg:ml-20">
-          <img src="/img/sm-logo.svg" alt="logo_p" class="ml-4 md:ml-6 lg:ml-20 md:hidden">          
+          <img src="/img/lg-logo.svg" alt="logo_luis_pinto" class="hidden lg:block">  
+          <img src="/img/md-logo.svg" alt="logo_pinto" class="hidden md:block lg:hidden">
+          <img src="/img/sm-logo.svg" alt="logo_p" class=" md:hidden">          
             <ul class="hidden md:flex items-center ml-8 text-lg font-medium text-general-white cursor-pointer">
-            <li> <a href="#bio" class="p-2 hover:text-blue_ribbon-500 transition ease-in-out duration-300 ml-">Hi people</a></li>
-            <li> <a href="#projects" class="p-2 hover:text-blue_ribbon-500 transition ease-in-out duration-300 ml-">Projects</a></li>
-            <li> <a href="#power-ups" class="p-2 hover:text-blue_ribbon-500 transition ease-in-out duration-300 ml-">Power-ups</a></li>
+            <li class="hover:text-blue_ribbon-500 transition p-2 ml-4"> 
+              <a href="#bio">Hi people</a>
+            </li>
+            <li class="hover:text-blue_ribbon-500 transition p-2 ml-4"> 
+              <a href="#projects">Projects</a>
+            </li>
+            <li class="hover:text-blue_ribbon-500 transition p-2 ml-4"> 
+              <a href="#power-ups">Power-ups</a>
+            </li>
         </ul>
         </div>
-        <button class="mr-4 md:mr-6 lg:mr-20 bg-blue_ribbon-600 border-[1px] border-blue_ribbon-400 text-general-white px-6 py-3 rounded-full hover:bg-blue_ribbon-500 transition ease-in-out duration-300">
-          Talk to me
-        </button>
+        <div class="flex items-center">
+          <button class="mr-4 md:mr-6 lg:mr-20 bg-blue_ribbon-600 border-[1px] border-blue_ribbon-400 text-general-white px-6 py-3 rounded-full hover:bg-blue_ribbon-500 transition ease-in-out duration-300">
+            Talk to me
+          </button>
+          <!-- Hamburger menu -->
+          <div class="p-2 bg-downriver-500 border border-downriver-400 rounded-md flex items-center justify-center md:hidden">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.25 6H15.75C15.9489 6 16.1397 5.92098 16.2803 5.78033C16.421 5.63968 16.5 5.44891 16.5 5.25C16.5 5.05109 16.421 4.86032 16.2803 4.71967C16.1397 4.57902 15.9489 4.5 15.75 4.5H2.25C2.05109 4.5 1.86032 4.57902 1.71967 4.71967C1.57902 4.86032 1.5 5.05109 1.5 5.25C1.5 5.44891 1.57902 5.63968 1.71967 5.78033C1.86032 5.92098 2.05109 6 2.25 6ZM15.75 12H2.25C2.05109 12 1.86032 12.079 1.71967 12.2197C1.57902 12.3603 1.5 12.5511 1.5 12.75C1.5 12.9489 1.57902 13.1397 1.71967 13.2803C1.86032 13.421 2.05109 13.5 2.25 13.5H15.75C15.9489 13.5 16.1397 13.421 16.2803 13.2803C16.421 13.1397 16.5 12.9489 16.5 12.75C16.5 12.5511 16.421 12.3603 16.2803 12.2197C16.1397 12.079 15.9489 12 15.75 12ZM15.75 8.25H2.25C2.05109 8.25 1.86032 8.32902 1.71967 8.46967C1.57902 8.61032 1.5 8.80109 1.5 9C1.5 9.19891 1.57902 9.38968 1.71967 9.53033C1.86032 9.67098 2.05109 9.75 2.25 9.75H15.75C15.9489 9.75 16.1397 9.67098 16.2803 9.53033C16.421 9.38968 16.5 9.19891 16.5 9C16.5 8.80109 16.421 8.61032 16.2803 8.46967C16.1397 8.32902 15.9489 8.25 15.75 8.25Z" fill="white"/>
+              </svg>            
+          </div>
+          <!-- Responsive menu -->
+          <ul class=" hidden bg-downriver-100 text-downriver-500 text-lg text-center absolute left-0 top-24 w-full p-4 rounded-lg border border-downriver-200">
+            <li class="hover:text-blue_ribbon-500 transition p-2 ml-4"> 
+              <a href="#bio">Hi people</a>
+            </li>
+            <li class="hover:text-blue_ribbon-500 transition p-2 ml-4"> 
+              <a href="#projects">Projects</a>
+            </li>
+            <li class="hover:text-blue_ribbon-500 transition p-2 ml-4"> 
+              <a href="#power-ups">Power-ups</a>
+            </li>
+          </ul>
+        </div>
       </nav>
   </header>
   
@@ -83,19 +109,19 @@
     </div>
     
     <!-- Projects section -->
-    <div class="w-full py-8 px-4" id="projects">
+    <div class="w-full py-8 md:py-20 lg:py-28 px-4 bg-downriver-50" id="projects">
       <div class="container mx-auto">
-        <div class=" flex flex-wrap items-center">
           <!-- Section intro projects -->
-          <div>
+          <div class=" w-full lg:max-w-[807px]">
             <h1 class=" text-3xl font-sporting-bold">My Projects</h1>
             <p class=" text-downriver-400 text-lg mt-2">The user interface, experience, interaction and product design. Below are some examples from the experience. From small businesses, startups, nonprofits, and tech giants, every project presents a custom solution for a unique customer.</p>
           </div>
+          <div class="flex flex-wrap justify-between py-6">
           <!-- Project 1 -->
-          <div class="py-6 w-full" id="project-ps">
-            <img src="./img/projects/project-ps.jpg" alt="purosurf-site" class="rounded-md">
+            <div class="py-6 w-full md:w-[381px] lg:w-[600px]" id="project-ps">
+            <img src="./img/projects/project-ps.jpg" alt="purosurf-site" class="rounded-md w-full">
             <div class="pt-4 pb-3">
-              <h3 class=" text-blue_ribbon-900 font-sporting-bold text-2xl">A new redesign view</h3>
+              <h3 class=" text-blue_ribbon-900 font-sporting-bold text-2xl lg:text-4xl">A new redesign view</h3>
               <div class=" w-full text-sm text-blue_ribbon-500">
                 <span>Website</span>
                 <span>•</span>
@@ -103,7 +129,127 @@
               </div>
             </div>
             <p class="pt-3 pb-6 text-base text-downriver-400">Puro Surf, una línea de hotel de playa que te permite vivir experiencias unicas y de calidad en cada uno de sus servicios, bajo una nueva imagen para su sitio.</p>
-            <button class="flex gap-2 px-4 py-3 bg-downriver-100 border border-downriver-200 rounded-lg font-semibold">
+            <button class="flex gap-2 px-4 py-3 text-downriver-500 bg-downriver-100/70 border border-downriver-200 rounded-lg font-semibold">
+              <span>View prototype</span>
+              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.9199 6.87C17.8185 6.62565 17.6243 6.43147 17.3799 6.33C17.2597 6.27876 17.1306 6.25158 16.9999 6.25H6.99994C6.73472 6.25 6.48037 6.35536 6.29283 6.54289C6.1053 6.73043 5.99994 6.98478 5.99994 7.25C5.99994 7.51522 6.1053 7.76957 6.29283 7.95711C6.48037 8.14464 6.73472 8.25 6.99994 8.25H14.5899L6.28994 16.54C6.19621 16.633 6.12182 16.7436 6.07105 16.8654C6.02028 16.9873 5.99414 17.118 5.99414 17.25C5.99414 17.382 6.02028 17.5127 6.07105 17.6346C6.12182 17.7564 6.19621 17.867 6.28994 17.96C6.3829 18.0537 6.4935 18.1281 6.61536 18.1789C6.73722 18.2297 6.86793 18.2558 6.99994 18.2558C7.13195 18.2558 7.26266 18.2297 7.38452 18.1789C7.50638 18.1281 7.61698 18.0537 7.70994 17.96L15.9999 9.66V17.25C15.9999 17.5152 16.1053 17.7696 16.2928 17.9571C16.4804 18.1446 16.7347 18.25 16.9999 18.25C17.2652 18.25 17.5195 18.1446 17.707 17.9571C17.8946 17.7696 17.9999 17.5152 17.9999 17.25V7.25C17.9984 7.11932 17.9712 6.99022 17.9199 6.87Z" fill="#0B2051"/>
+                </svg>                
+            </button>
+            </div>
+
+          <!-- Project 2 -->
+          <div class="py-6 w-full md:w-[381px] lg:w-[600px]" id="project-ew">
+            <img src="./img/projects/project-ew.jpg" alt="empleoworkers-site" class="rounded-md w-full">
+            <div class="pt-4 pb-3">
+              <h3 class=" text-blue_ribbon-900 font-sporting-bold text-2xl lg:text-4xl">New tool for jobs opportunities</h3>
+              <div class=" w-full text-sm text-blue_ribbon-500">
+                <span>Website</span>
+                <span>•</span>
+                <span>In development</span>
+              </div>
+            </div>
+            <p class="pt-3 pb-6 text-base text-downriver-400">Empleo Workers is a platform for the users can will be search and takes an oportunitie to apply a new job to an easiest and better way.</p>
+            <button class="flex gap-2 px-4 py-3 text-downriver-500 bg-downriver-100/70 border border-downriver-200 rounded-lg font-semibold">
+              <span>View prototype</span>
+              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.9199 6.87C17.8185 6.62565 17.6243 6.43147 17.3799 6.33C17.2597 6.27876 17.1306 6.25158 16.9999 6.25H6.99994C6.73472 6.25 6.48037 6.35536 6.29283 6.54289C6.1053 6.73043 5.99994 6.98478 5.99994 7.25C5.99994 7.51522 6.1053 7.76957 6.29283 7.95711C6.48037 8.14464 6.73472 8.25 6.99994 8.25H14.5899L6.28994 16.54C6.19621 16.633 6.12182 16.7436 6.07105 16.8654C6.02028 16.9873 5.99414 17.118 5.99414 17.25C5.99414 17.382 6.02028 17.5127 6.07105 17.6346C6.12182 17.7564 6.19621 17.867 6.28994 17.96C6.3829 18.0537 6.4935 18.1281 6.61536 18.1789C6.73722 18.2297 6.86793 18.2558 6.99994 18.2558C7.13195 18.2558 7.26266 18.2297 7.38452 18.1789C7.50638 18.1281 7.61698 18.0537 7.70994 17.96L15.9999 9.66V17.25C15.9999 17.5152 16.1053 17.7696 16.2928 17.9571C16.4804 18.1446 16.7347 18.25 16.9999 18.25C17.2652 18.25 17.5195 18.1446 17.707 17.9571C17.8946 17.7696 17.9999 17.5152 17.9999 17.25V7.25C17.9984 7.11932 17.9712 6.99022 17.9199 6.87Z" fill="#0B2051"/>
+                </svg>                
+            </button>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="py-6 w-full md:w-[381px] lg:w-[600px]" id="project-sd">
+            <img src="./img/projects/project-sd.jpg" alt="sundance-site" class="rounded-md w-full">
+            <div class="pt-4 pb-3">
+              <h3 class=" text-blue_ribbon-900 font-sporting-bold text-2xl lg:text-4xl">New tool for jobs opportunities</h3>
+              <div class=" w-full text-sm text-blue_ribbon-500">
+                <span>Website</span>
+                <!-- <span>•</span>
+                <span>In development</span> -->
+              </div>
+            </div>
+            <p class="pt-3 pb-6 text-base text-downriver-400">Empleo Workers is a platform for the users can will be search and takes an oportunitie to apply a new job to an easiest and better way.</p>
+            <button class="flex gap-2 px-4 py-3 text-downriver-500 bg-downriver-100/70 border border-downriver-200 rounded-lg font-semibold">
+              <span>View online</span>
+              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.9199 6.87C17.8185 6.62565 17.6243 6.43147 17.3799 6.33C17.2597 6.27876 17.1306 6.25158 16.9999 6.25H6.99994C6.73472 6.25 6.48037 6.35536 6.29283 6.54289C6.1053 6.73043 5.99994 6.98478 5.99994 7.25C5.99994 7.51522 6.1053 7.76957 6.29283 7.95711C6.48037 8.14464 6.73472 8.25 6.99994 8.25H14.5899L6.28994 16.54C6.19621 16.633 6.12182 16.7436 6.07105 16.8654C6.02028 16.9873 5.99414 17.118 5.99414 17.25C5.99414 17.382 6.02028 17.5127 6.07105 17.6346C6.12182 17.7564 6.19621 17.867 6.28994 17.96C6.3829 18.0537 6.4935 18.1281 6.61536 18.1789C6.73722 18.2297 6.86793 18.2558 6.99994 18.2558C7.13195 18.2558 7.26266 18.2297 7.38452 18.1789C7.50638 18.1281 7.61698 18.0537 7.70994 17.96L15.9999 9.66V17.25C15.9999 17.5152 16.1053 17.7696 16.2928 17.9571C16.4804 18.1446 16.7347 18.25 16.9999 18.25C17.2652 18.25 17.5195 18.1446 17.707 17.9571C17.8946 17.7696 17.9999 17.5152 17.9999 17.25V7.25C17.9984 7.11932 17.9712 6.99022 17.9199 6.87Z" fill="#0B2051"/>
+                </svg>                
+            </button>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="py-6 w-full md:w-[381px] lg:w-[600px]" id="project-tse">
+            <img src="./img/projects/project-tse.jpg" alt="saludexpress-site" class="rounded-md w-full">
+            <div class="pt-4 pb-3">
+              <h3 class=" text-blue_ribbon-900 font-sporting-bold text-2xl lg:text-4xl">New experience to medical visits</h3>
+              <div class=" w-full text-sm text-blue_ribbon-500">
+                <span>App</span>
+                <span>•</span>
+                <span>In development</span>
+              </div>
+            </div>
+            <p class="pt-3 pb-6 text-base text-downriver-400">Empleo Workers is a platform for the users can will be search and takes an oportunitie to apply a new job to an easiest and better way.</p>
+            <button class="flex gap-2 px-4 py-3 text-downriver-500 bg-downriver-100/70 border border-downriver-200 rounded-lg font-semibold">
+              <span>View prototype</span>
+              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.9199 6.87C17.8185 6.62565 17.6243 6.43147 17.3799 6.33C17.2597 6.27876 17.1306 6.25158 16.9999 6.25H6.99994C6.73472 6.25 6.48037 6.35536 6.29283 6.54289C6.1053 6.73043 5.99994 6.98478 5.99994 7.25C5.99994 7.51522 6.1053 7.76957 6.29283 7.95711C6.48037 8.14464 6.73472 8.25 6.99994 8.25H14.5899L6.28994 16.54C6.19621 16.633 6.12182 16.7436 6.07105 16.8654C6.02028 16.9873 5.99414 17.118 5.99414 17.25C5.99414 17.382 6.02028 17.5127 6.07105 17.6346C6.12182 17.7564 6.19621 17.867 6.28994 17.96C6.3829 18.0537 6.4935 18.1281 6.61536 18.1789C6.73722 18.2297 6.86793 18.2558 6.99994 18.2558C7.13195 18.2558 7.26266 18.2297 7.38452 18.1789C7.50638 18.1281 7.61698 18.0537 7.70994 17.96L15.9999 9.66V17.25C15.9999 17.5152 16.1053 17.7696 16.2928 17.9571C16.4804 18.1446 16.7347 18.25 16.9999 18.25C17.2652 18.25 17.5195 18.1446 17.707 17.9571C17.8946 17.7696 17.9999 17.5152 17.9999 17.25V7.25C17.9984 7.11932 17.9712 6.99022 17.9199 6.87Z" fill="#0B2051"/>
+                </svg>                
+            </button>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="py-6 w-full md:w-[381px] lg:w-[600px]" id="project-st">
+            <img src="./img/projects/project-st.jpg" alt="scratch-site" class="rounded-md w-full">
+            <div class="pt-4 pb-3">
+              <h3 class=" text-blue_ribbon-900 font-sporting-bold text-2xl lg:text-4xl">Enjoy your golf sessions</h3>
+              <div class=" w-full text-sm text-blue_ribbon-500">
+                <span>App</span>
+                <span>•</span>
+                <span>In development</span>
+              </div>
+            </div>
+            <p class="pt-3 pb-6 text-base text-downriver-400">Empleo Workers is a platform for the users can will be search and takes an oportunitie to apply a new job to an easiest and better way.</p>
+            <button class="flex gap-2 px-4 py-3 text-downriver-500 bg-downriver-100/70 border border-downriver-200 rounded-lg font-semibold">
+              <span>View prototype</span>
+              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.9199 6.87C17.8185 6.62565 17.6243 6.43147 17.3799 6.33C17.2597 6.27876 17.1306 6.25158 16.9999 6.25H6.99994C6.73472 6.25 6.48037 6.35536 6.29283 6.54289C6.1053 6.73043 5.99994 6.98478 5.99994 7.25C5.99994 7.51522 6.1053 7.76957 6.29283 7.95711C6.48037 8.14464 6.73472 8.25 6.99994 8.25H14.5899L6.28994 16.54C6.19621 16.633 6.12182 16.7436 6.07105 16.8654C6.02028 16.9873 5.99414 17.118 5.99414 17.25C5.99414 17.382 6.02028 17.5127 6.07105 17.6346C6.12182 17.7564 6.19621 17.867 6.28994 17.96C6.3829 18.0537 6.4935 18.1281 6.61536 18.1789C6.73722 18.2297 6.86793 18.2558 6.99994 18.2558C7.13195 18.2558 7.26266 18.2297 7.38452 18.1789C7.50638 18.1281 7.61698 18.0537 7.70994 17.96L15.9999 9.66V17.25C15.9999 17.5152 16.1053 17.7696 16.2928 17.9571C16.4804 18.1446 16.7347 18.25 16.9999 18.25C17.2652 18.25 17.5195 18.1446 17.707 17.9571C17.8946 17.7696 17.9999 17.5152 17.9999 17.25V7.25C17.9984 7.11932 17.9712 6.99022 17.9199 6.87Z" fill="#0B2051"/>
+                </svg>                
+            </button>
+          </div>
+
+          <!-- Project 6 -->
+          <div class="py-6 w-full md:w-[381px] lg:w-[600px]" id="project-mdu">
+            <img src="./img/projects/project-mdu.jpg" alt="mdu-site" class="rounded-md w-full">
+            <div class="pt-4 pb-3">
+              <h3 class=" text-blue_ribbon-900 font-sporting-bold text-2xl lg:text-4xl">All for everyone in a big marketplace</h3>
+              <div class=" w-full text-sm text-blue_ribbon-500">
+                <span>Website</span>
+                <span>•</span>
+                <span>Created in company</span>
+              </div>
+            </div>
+            <p class="pt-3 pb-6 text-base text-downriver-400">Empleo Workers is a platform for the users can will be search and takes an oportunitie to apply a new job to an easiest and better way.</p>
+            <button class="flex gap-2 px-4 py-3 text-downriver-500 bg-downriver-100/70 border border-downriver-200 rounded-lg font-semibold">
+              <span>View online</span>
+              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.9199 6.87C17.8185 6.62565 17.6243 6.43147 17.3799 6.33C17.2597 6.27876 17.1306 6.25158 16.9999 6.25H6.99994C6.73472 6.25 6.48037 6.35536 6.29283 6.54289C6.1053 6.73043 5.99994 6.98478 5.99994 7.25C5.99994 7.51522 6.1053 7.76957 6.29283 7.95711C6.48037 8.14464 6.73472 8.25 6.99994 8.25H14.5899L6.28994 16.54C6.19621 16.633 6.12182 16.7436 6.07105 16.8654C6.02028 16.9873 5.99414 17.118 5.99414 17.25C5.99414 17.382 6.02028 17.5127 6.07105 17.6346C6.12182 17.7564 6.19621 17.867 6.28994 17.96C6.3829 18.0537 6.4935 18.1281 6.61536 18.1789C6.73722 18.2297 6.86793 18.2558 6.99994 18.2558C7.13195 18.2558 7.26266 18.2297 7.38452 18.1789C7.50638 18.1281 7.61698 18.0537 7.70994 17.96L15.9999 9.66V17.25C15.9999 17.5152 16.1053 17.7696 16.2928 17.9571C16.4804 18.1446 16.7347 18.25 16.9999 18.25C17.2652 18.25 17.5195 18.1446 17.707 17.9571C17.8946 17.7696 17.9999 17.5152 17.9999 17.25V7.25C17.9984 7.11932 17.9712 6.99022 17.9199 6.87Z" fill="#0B2051"/>
+                </svg>                
+            </button>
+          </div>
+
+          <!-- Project 7 -->
+          <div class="py-6 w-full md:w-[381px] lg:w-[600px]" id="project-liv">
+            <img src="./img/projects/project-liv.jpg" alt="liv-site" class="rounded-md w-full">
+            <div class="pt-4 pb-3">
+              <h3 class=" text-blue_ribbon-900 font-sporting-bold text-2xl lg:text-4xl">Know more about wine experience</h3>
+              <div class=" w-full text-sm text-blue_ribbon-500">
+                <span>Website</span>
+                <span>•</span>
+                <span>In development</span>
+              </div>
+            </div>
+            <p class="pt-3 pb-6 text-base text-downriver-400">Empleo Workers is a platform for the users can will be search and takes an oportunitie to apply a new job to an easiest and better way.</p>
+            <button class="flex gap-2 px-4 py-3 text-downriver-500 bg-downriver-100/70 border border-downriver-200 rounded-lg font-semibold">
               <span>View prototype</span>
               <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M17.9199 6.87C17.8185 6.62565 17.6243 6.43147 17.3799 6.33C17.2597 6.27876 17.1306 6.25158 16.9999 6.25H6.99994C6.73472 6.25 6.48037 6.35536 6.29283 6.54289C6.1053 6.73043 5.99994 6.98478 5.99994 7.25C5.99994 7.51522 6.1053 7.76957 6.29283 7.95711C6.48037 8.14464 6.73472 8.25 6.99994 8.25H14.5899L6.28994 16.54C6.19621 16.633 6.12182 16.7436 6.07105 16.8654C6.02028 16.9873 5.99414 17.118 5.99414 17.25C5.99414 17.382 6.02028 17.5127 6.07105 17.6346C6.12182 17.7564 6.19621 17.867 6.28994 17.96C6.3829 18.0537 6.4935 18.1281 6.61536 18.1789C6.73722 18.2297 6.86793 18.2558 6.99994 18.2558C7.13195 18.2558 7.26266 18.2297 7.38452 18.1789C7.50638 18.1281 7.61698 18.0537 7.70994 17.96L15.9999 9.66V17.25C15.9999 17.5152 16.1053 17.7696 16.2928 17.9571C16.4804 18.1446 16.7347 18.25 16.9999 18.25C17.2652 18.25 17.5195 18.1446 17.707 17.9571C17.8946 17.7696 17.9999 17.5152 17.9999 17.25V7.25C17.9984 7.11932 17.9712 6.99022 17.9199 6.87Z" fill="#0B2051"/>

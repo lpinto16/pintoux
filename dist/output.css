@@ -1026,7 +1026,7 @@ video {
 }
 
 @font-face {
-  font-family: 'Sporting Grotesque Regular',sans-serif;
+  font-family: 'Sporting Grotesque Regular';
 
   font-style: normal;
 
@@ -1036,7 +1036,7 @@ video {
 }
 
 @font-face {
-  font-family: 'Sporting Grotesque Bold',sans-serif;
+  font-family: 'Sporting Grotesque Bold';
 
   font-style: normal;
 
@@ -1047,6 +1047,11 @@ video {
 
 html, body {
   scroll-behavior: smooth;
+  font-family: 'Inter', sans-serif;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: 'Sporting Grotesque Bold', sans-serif;
 }
 
 .hover\:bg-blue_ribbon-500:hover {

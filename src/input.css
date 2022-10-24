@@ -3,7 +3,7 @@
 @tailwind utilities;   
 
 @font-face {
-    font-family: 'Sporting Grotesque Regular';
+    font-family: 'Sporting Grotesque Regular',sans-serif;
     font-style: normal;
     font-weight: normal;
     src: url(/font/SportingGrotesque-Regular.woff);
@@ -11,7 +11,7 @@
     
 
     @font-face {
-    font-family: 'Sporting Grotesque Bold';
+    font-family: 'Sporting Grotesque Bold',sans-serif;
     font-style: normal;
     font-weight: normal;
     src: url(/font/SportingGrotesque-Bold.woff);
